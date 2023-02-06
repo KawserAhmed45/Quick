@@ -1,0 +1,162 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;800&display=swap');
+
+/*Global  CSS*/
+body{
+	font-family: 'Inter', sans-serif;
+	font-size: 16px;
+	color: #3F3D56;
+}
+a{
+	text-decoration: none;
+
+}
+ul{
+	padding: 0;
+}
+
+
+/*Header Section*/
+header{
+	border-bottom: 3px solid #ECEEF2;
+} 
+header .logo{
+	width: 70%;
+}
+.nav-item{
+	margin: 0 7px;
+}
+.nav-link{
+	font-weight: 500;
+	font-size: 18px;
+	color: #333 !important;
+}
+
+/* Banner section*/
+   .banner-area{
+   	padding: 75px 0;
+   	text-align: center;
+   }
+   .banner-area h1{
+   	font-size: 62px;
+   	font-weight: 600;
+   	line-height: 82px;
+   	color: #0F2656;
+   }
+   .banner-area h1 span{
+   	display: block;
+   	color: #008AFF ;
+   }
+   .banner-area p{
+   	padding: 10px 175px 25px;
+   	font-size: 17px;
+   	font-weight: 500;
+   	line-height: 30px;
+   	color: #4f4f4f;
+
+   }
+   .banner-area .banner-img{
+
+   }
+
+
+   /*stories section css*/
+
+   .stories section{
+   	padding: 75px 0;
+   }
+   .stories-section h2{
+   	text-align: right;
+   	color: #F15767;
+   	font-size: 72px;
+   	font-weight: 700;
+
+   }
+    .stories-section p{
+    	text-align: right;
+    	padding-left: 200px;
+    	color: #3B506C;
+    	font-size: 18px;
+    	font-weight: 400;
+    	line-height: 28px;
+
+    }
+    .stories-section h1{
+    	font-size: 48px;
+    	font-weight: 700;
+    	line-height: 60px;
+    	color: #0F2656;
+    }
+    .stories-section h1 span{
+    	display: block;
+    }
+
+
+    /*Features section*/
+    .features-section{
+    	padding: 75px 0;
+    }
+    .f-one{
+    	background-color: #FDEBED;
+    }
+
+    .f-two{
+    	background-color: #EBF9F4;
+    }
+
+    .f-three{
+    	background-color: #FFF7E8;
+    }
+    .features{
+    	padding: 40px 30px;
+    }
+
+    .features img{
+    	width: 80%;
+    	display: block;
+    	margin: 0 auto;
+    	height: 210px;
+    }
+    .features h3{
+    	padding: 20px 0 5px;
+    	font-size: 26px;
+    	font-weight: 600;
+    }
+    .features p{
+    	line-height: 28px;
+    }
+
+
+
+    /* Footer section */
+    footer{
+    	background: #008AFF;
+    	padding: 25px 0 15px;
+    }
+    footer p{
+    	text-align: center;
+    	color: #fff;
+    	font-size: 16px;
+    }
+
+    @media ( min-width: 320px ) and ( max-width: 576px ){
+    	.banner-area{ padding: 50px 0; }
+    	.banner-area h1{ font-size: 42px; line-height: 44px;}
+    	.banner-area p{padding: 10px 0px 25px;}
+    	.banner-area img{ width: 90% display: block margin: 0 auto; }
+    	.stories-section{ padding: 20% 0 0px; }
+    	.stories-section h2{ text-align: center; }
+    	.stories-section p{ text-align: center; padding-left: 0; }
+    	.stories-section h1{ font-size: 34px; line-height: 40px; text-align: center; }
+    	.stories-section h1 span{ display: inline; }
+    	.features-section{ padding: 50px 0 0; }
+    	.features{ margin-bottom: 20px; }
+    }
+    }
+
+
+
+
+
+
+
